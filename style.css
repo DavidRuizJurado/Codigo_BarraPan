@@ -1,0 +1,54 @@
+#contenedor video{
+	max-width: 100%;
+	width: 100%;
+}
+
+#contenedor{
+	max-width: 100%;
+	position:relative;
+}
+
+canvas{
+	max-width: 100%;
+}
+
+canvas.drawingBuffer{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+body{
+    background-color: rgb(255, 23, 79);
+    margin: 0 auto;
+    text-align: center;
+}
+
+label,p,a,output{
+font-size: xx-large;
+}
+
+label,p,h1,a,output{
+    text-align: center;
+    background-color: rgb(255, 23, 79);
+    font-family: fantasy;
+    color: whitesmoke;
+}
+
+
+button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #311fd1;
+    border-radius: 6px;
+    border: 2px solid #3848c0;
+    align-items: center;
+}
+
+#resultado{
+    font-family:monospace;
+
+}

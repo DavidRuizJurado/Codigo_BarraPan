@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BarraPan</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Escanear Código de Barras</h1>
+    
+    <div id="contenedor"></div>
+    <!-- Cargamos Quagga y luego nuestro script -->
+    <script src="https://unpkg.com/quagga@0.12.1/dist/quagga.min.js"></script>
+    
+    <p id="resultado">Código no encontrado</p>
+    <div id="boton">
+        <button onclick="EnviarCodigo(true)">Añadir</button>
+        <button onclick="EnviarCodigo(false)">Quitar</button>
+    </div>
+    <div id="historial">
+        <h1>Historial:</h1>
+
+    </div>
+  </body>
+</html>
